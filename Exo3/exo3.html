@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./exo3.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo3</title>
+</head>
+<body>
+    <label for="INstruments1">Choisissez un instrument : </label> <br>
+<select id="cars" name="cars">
+        <option value="basson">basson</option>
+        <option value="clarinette">clarinette</option>
+        <option value="ocarina">ocarina</option>
+        <option value="saxophone">saxophone</option>
+        <option value="trombone">trombone</option>
+</select>
+<input type="submit" name="INstruments1">
+
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Nom</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://fr.wikipedia.org/wiki/Basson" target="_blank">
+                    <img src="./Images instruments/Basson.jpg" alt="le basson" width="50">
+                </a>
+            </td>
+            <td> <strong> Le Basson </strong></td>
+            <td>
+                <p> Le <strong> basson </strong> est un instrument<br> 
+                de musique à vent de la famille des bois,<br>
+                 qui apparaît à la fin du xvie siècle<br> 
+                 en Italie sous le nom de fagotto.</td>
+                </p>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://fr.wikipedia.org/wiki/Clarinette" target="_blank">
+                    <img src="./Images instruments/clarinette.jpg" alt="la clarinette" width="50">
+                </a>
+            </td>
+            <td> <strong> La Clarinette</strong></td>
+            <td> <p> La clarinette (du provençal clarin désignant un hautbois1) <br>
+                 est un instrument de musique à vent de la famille <br>
+                  des bois caractérisé par son anche simple <br>
+                   et sa perce quasi cylindrique.</td>
+                </p>
+        </tr>
+        <tr>
+            <td><a href="https://fr.wikipedia.org/wiki/Ocarina" target="_blank">
+                <img src="./Images instruments/Ocarina.jpg" alt="l'ocarina" width="50">
+                </a></td>
+            <td> <strong> L'Ocarina</strong></td>
+            <td> <p> Un ocarina est un instrument de musique à vent ovoïde, <br>
+                 ressemblant à une tête d’oie ; d’où son nom : <br>
+                  en italien, oca signifie « oie », et ocarina, « petite oie ».</td>
+                </p>
+        </tr>
+        <tr>
+            <td><a href="https://fr.wikipedia.org/wiki/Saxophone" target="_blank">
+                <img src="./Images instruments/Saxophone.jpg" alt="le saxophone" width="50">
+                </a></td>
+            <td> <strong> Le Saxophone</strong></td>
+            <td> <p> Le saxophone est un instrument de musique à vent, <br>
+                 appartenant à la famille des bois. <br>
+                  Il a été inventé par le Belge Adolphe Sax <br>
+                   et breveté à Paris le 21 mars 1846.</td>
+                </p>
+        </tr>
+        <tr>
+            <td><a href="https://fr.wikipedia.org/wiki/Trombone_(instrument)" target="_blank">
+                <img src="./Images instruments/Trombone.jpg" alt="le Trombone" width="50">
+                </a></td>
+            <td> <strong> Le Trombone </strong></td>
+            <td> <p> Le trombone est un instrument de musique à vent <br>
+                 et à embouchure de la famille des cuivres clairs. <br>
+                  Le terme désigne implicitement le trombone à coulisse <br>
+                   caractérisé par l'utilisation d'une coulisse télescopique, <br>
+                    mais il existe également le trombone à pistons.</td>
+                </p>
+        </tr>
+    </table>
+    
+    <form method="get>"
+        <label "Choix de l'instrument"> Choisissez une pratique : </label> <br>
+            <input type="radio" name="Instrument" value="Le Basson">Le Basson <br>
+            <input type="radio" name="Instrument" value="La clarinette">La clarinette <br>
+            <input type="radio" name="Instrument" value="L'ocarina">L'ocarina <br>
+            <input type="radio" name="Instrument" value="Le saxophone">Le saxophone <br>
+            <input type="radio" name="Instrument" value="Le trombone">Le trombone <br>
+            <input type="submit" name="Instrument" value="Validation">
+       
+</body>
+</html>

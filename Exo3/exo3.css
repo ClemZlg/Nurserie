@@ -1,0 +1,30 @@
+p
+{ 
+    color: Red ;
+}
+body {
+    background-color: lightblue;
+  }
+ul {
+    opacity : 0.5
+}   
+
+td
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+    border: 1px solid rgba(211, 141, 12, 0.812);
+}
+td
+{
+text-align :auto;
+}
+table { margin: auto }
+table.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
